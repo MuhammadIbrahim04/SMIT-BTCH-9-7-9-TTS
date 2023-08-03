@@ -1,233 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="index.css" />
-  </head>
 
-  <body>
-    <!-- <a href="flex.html"> <button>See Flex Button</button></a>
-    <a href="menu/index.html"> <button>See Menu</button></a> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore IBM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-    <h1 id="top_heading">Tourism in Pakistan</h1>
+<body>
 
-    <!-- Navbar -->
+    <div id="main_container">
+        <div id="Register_div">
+            <h1>Register</h1>
+            <input type="email" id="regiser_input" placeholder="email.."><br>
+            <input type="password" id="regiser_password" placeholder="password.."><br>
+            <button id="regiser_btn">Register</button> <br><br>
 
-    <div class="navbar">
-      <div><img src="images/triplogo.svg" class="logo_img" /></div>
+            <div id="login_div">
+                <h1>Login</h1>
+                <input type="email" id="login_input" placeholder="email.."><br>
+                <input type="password" id="login_password" placeholder="password.."><br>
+                <button id="login_btn">Login</button><br><br>
+            </div>
+            <div id="logout_div">
 
-      <div>
-        <i class="fa-solid fa-bars menu"></i>
-        <ul class="list">
-          <li>
-            <a href="ECOMMERCE/index.html"
-              ><i class="fa-solid fa-bus"></i> Food Website
-            </a>
-          </li>
-          <li>
-            <a href="TourAccesories/index.html"
-              ><i class="fa-solid fa-bus"></i> Tour Accesories
-            </a>
-          </li>
-          <li>
-            <a href="flex.html"><i class="fa-solid fa-bus"></i> Packages </a>
-          </li>
-          <li>
-            <a href="schedule/index.html"
-              ><i class="fa-regular fa-clock"></i> Tour Schedule
-            </a>
-          </li>
-
-          <li>
-            <a href="sindh.html"
-              ><i class="fa-regular fa-lightbulb"></i> Sindh
-            </a>
-          </li>
-          <li>
-            <a href="punjab.html">
-              <i class="fa-solid fa-sun-plant-wilt"></i> Punjaab</a
-            >
-          </li>
-          <li>
-            <a href="punjab.html">
-              <i class="fa-solid fa-water"></i> Balochistan</a
-            >
-          </li>
-          <li class="show_nested">
-            <i class="fa-solid fa-mountain"></i> KPK
-            <ul class="nested">
-              <li><a href="kpk/hunza.html">Hunza</a></li>
-              <li><a href="kpk/kashmir.html">Kashmir</a></li>
-              <li><a href="kpk/mansehara.html">Mansehra</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Search Bar -->
-
-    <div class="trip_header_div">
-      <h1>Tours for Everywhere. Find Now!</h1>
-      <p>Explore from 900 tour packages in Paksitan and abroad.</p>
-      <input placeholder="Where ?" type="search" />
-      <p>Find on a location such as Dubai, Turkey, Naran, Hunza etc.</p>
-    </div>
-
-    <div class="tour_karachi">
-      <h4>Ways to tour Karachi</h4>
-      <p>Book these experiences for a close-up look at Karachi.</p>
-      <div class="karachi_card_container">
-        <div class="karachi_card">
-          <div class="karachi_heart">
-            <i class="fa-regular fa-heart"></i>
-          </div>
-
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
+                <button id="logout_btn">Logout</button><br><br>
+            </div>
         </div>
 
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
 
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
 
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-        <div class="karachi_card">
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1"
-            class="karachi_card_img"
-            alt=""
-          />
-          <h4 class="karachi_card_heading">
-            UNESCO World Heritage Tour Near Karachi
-          </h4>
-          <h4 class="karachi_card_desc">from $141 per group</h4>
-        </div>
-      </div>
-    </div>
-  </body>
+        <script type="module" src="index.js"></script>
+</body>
+
 </html>
