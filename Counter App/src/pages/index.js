@@ -20,6 +20,7 @@ export default function Home() {
         <Link className='p-2 bg-red-400 m-2 rounded text-white' href={'/login'}>Login</Link>
         <Link className='p-2 bg-red-400 m-2 rounded text-white' href={'/contact'}>Contact</Link>
         <Link className='p-2 bg-red-400 m-2 rounded text-white' href={'/about'}>About</Link>
+        <Link className='p-2 bg-red-400 m-2 rounded text-white' href={'/student'}>Student</Link>
 
       </div>
 
